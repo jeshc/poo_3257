@@ -2,9 +2,9 @@
 
 ## Curso remedial
 
-### <su nombre>
+### su nombre
 
-### <su correo>
+### su correo
 
-### <no cta>
+### no cta
 
