@@ -3,28 +3,28 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sesion_3_agosto;
+package sesion_5_agosto;
 
-import ico.fes.poo.Teclado;
+import ico.fes.poo.Automovil;
 
 /**
  *
  * @author jesushc
  */
-public class Sesion_3_agosto {
+public class Sesion_5_agosto {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Teclado objTeclado1= new Teclado();
-        objTeclado1.teclear(10);
-        Teclado t2=new Teclado();
-        Teclado t3=new Teclado();
-        Teclado t4=new Teclado();
-        Teclado t5=new Teclado();
-        
+        Automovil miCarro=new Automovil();
+        miCarro.marca="VW";
+        miCarro.subMarca="Golf";
+        miCarro.modelo=1990;
+        miCarro.color="Gris";
+        float x = miCarro.avanzar(100);
+        System.out.println("Avabzados="+ x);
         
     }
     
